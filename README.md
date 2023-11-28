@@ -1,4 +1,4 @@
-# Deploying Miro React App Using AWS CDK
+# Deploying Miro React App using AWS CDK
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 [![Deploy with GitHub Codespaces](https://github.com/codespaces/badge.svg)](#deploy-with-github-codespaces)
