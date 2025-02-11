@@ -8,8 +8,8 @@ export default function App() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const handler = async () => {
-      const selection = await miro.board.getSelection();
+    const handler = async (event: { items: any[] }) => {
+      const selection = event.items
       if (selection.length === 1) {
         const id = selection[0].id;
 
